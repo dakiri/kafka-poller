@@ -1,0 +1,12 @@
+topic: "sample"
+servers: localhost:9091
+groupid: sample-group
+poll: 1000
+ssl:
+  protocol: SSL
+  truststore:
+    location: /Users/Sanjaya/kafka-cert/kafka.client.truststore.jks
+    password: sushama123
+  keystore:
+    location: /Users/Sanjaya/kafka-cert/kafka.client.keystore.jks
+    password: sushama123

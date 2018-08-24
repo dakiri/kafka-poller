@@ -1,0 +1,12 @@
+topic: "sample"
+bootstrap-servers: localhost:9091
+ssl:
+  protocol: SSL
+  truststore:
+    location: /Users/Sanjaya/kafka-cert/kafka.client.truststore.jks
+    password: sushama123
+  keystore:
+    location: /Users/Sanjaya/kafka-cert/kafka.client.keystore.jks
+    password: sushama123
+groupid: sample-group
+auto-offset-reset: earliest
